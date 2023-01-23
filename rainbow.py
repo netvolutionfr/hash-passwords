@@ -3,8 +3,6 @@ import hashlib
 import codecs
 
 
-# Twix_04
-
 # create rainbow table file
 output = open("cain.csv", "a")
 for line in codecs.open("cain.txt", 'rb', encoding='utf-8', errors='ignore'):
